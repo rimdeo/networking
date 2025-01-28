@@ -1,0 +1,39 @@
+1. Physical
+The first OSI model layer describes the physical connections between devices in a network.
+Electrical, optic, or electromagnetic signal data moves from device to device through the physical infrastructure defined by this layer.
+protocol -RS232, 100BaseTX, ISDN, 11.  
+
+2. The Data Link Layer
+The second OSI model layer describes data transmission between network devices.
+Data is sent in packets within a frame of special bit patterns or codes that indicate the beginning and end of each packet.
+These packets move through switches that route information through the physical layer from one physical location to another.
+protocol -RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
+  
+ 3. The Network Layer
+The third of the OSI layers organizes and transmits data between multiple networks.
+Network layer hardware includes routes, bridge routers, 3-layer switches, and protocols such as Internet (IPv4) Protocol version 4 and Internet Protocol version 6 (IPv6). 
+protocol -IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
+  
+ 4. The Transport Layer
+This layer deals with sending and delivering of complete and reliable data from one device to another through a network or between networks.
+Common transport layer protocols include the Transmission Control Protocol (TCP) for connection-oriented data transmission 
+and the User Datagram Protocol (UDP) for connectionless data transmission. 
+protocol -TCP, UDP  
+
+5. The Session Layer
+This OSI Model layer concerns itself with managing session links between network devices with a specific beginning and end. 
+The essential functions include establishing a link to start the session, authenticating senders and receivers, authorizing communications between devices and apps, 
+maintaining the session, and terminating the connection, which are the key functions.  
+protocol -NetBIOS, SAP.  
+
+6. The Presentation Layer
+Data flows as packets of code, often encrypted, through networks. Presenting it in a useful format is the focus of the sixth OSI model layer.
+protocol -MPEG, ASCH, SSL, TLS  
+
+7. The Application Layer
+The top layer of the OSI 7 layer model is the application layer. It is how a user application, such as a website, browser, email, instant messaging,
+file transfers, or voice-over IP, interfaces with the network.
+Think of it as the window for accessing the network to send or display data, which can be anything from a picture of your pet cat to a database of statistics to a voice message.  
+protocol-SMTP, HTTP, FTP, POP3, SNMP.
+  
+  
